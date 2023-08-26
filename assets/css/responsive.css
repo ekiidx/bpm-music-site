@@ -1,0 +1,7 @@
+@media (min-width: 768px) {
+    .contact {
+        background-color: #ffffff;
+        color: #000000;
+        padding: 5rem 5rem 3rem 5rem;
+    }
+}

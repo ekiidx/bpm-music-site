@@ -1,0 +1,282 @@
+html, body {
+    background-color: #03051a;
+    color: #ffffff;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+}
+a {
+    text-decoration: none;
+}
+
+
+/* Hero Main */
+#hero-main p {
+    margin: 0 auto;
+    margin-bottom: 3rem;
+}
+.hero-subtitle-container {
+    margin-bottom: 3rem;
+}
+.hero-subtitle {
+    font-size: calc(0.25rem + 6vw);
+    letter-spacing: 0.1rem; 
+    line-height: 75%;
+}
+.hero-subtitle-1 {
+    font-size: calc(4vw + 0.1rem); 
+    letter-spacing: 0.375rem; 
+    line-height: 75%;
+    margin-left: 0.25rem;
+}
+.hero-title-container {
+    margin-bottom: 1.5rem;
+}
+.hero-title {
+    font-size: calc(1.15rem + 10vw); 
+    line-height: 75%; 
+    font-weight: 600;
+}
+.carousel-indicators {
+    margin-bottom: 3rem;
+}
+.carousel-indicators [data-bs-target] {
+    background-color: #25B2AE;
+}
+#hero-main {
+    color: #ffffff;
+    background-color: #020101;
+    height: 100vh;
+    width: 100%;
+}
+body.mobile-wide-screen #hero-main {
+    height: 100vw;
+    width: 100%;
+}
+#hero-main #main-carousel .carousel-inner {
+    height: 100vh;
+    width: 100%;
+}
+body.mobile-wide-screen #hero-main #main-carousel .carousel-inner {
+    height: 100vw;
+    width: 100%;
+}
+#hero-main .hero-background-0 {
+    position: absolute !important;
+    height: 100vh;
+    width: 100%;
+    background: url(../../assets/img/main-hero-1.jpg) no-repeat;
+    background-size: cover !important;
+    background-position: center center !important;
+    -moz-animation: zoom 20s;
+    -webkit-animation: zoom 20s;
+    -o-animation: zoom 20s;
+    animation: zoom 20s;
+}
+body.mobile-wide-screen #hero-main .hero-background-0 {
+    height: 100vw;
+    width: 100%;
+}
+#hero-main .hero-background-1 {
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    background: url(../../assets/img/main-hero-2.jpg) no-repeat;
+    background-size: cover;
+    background-position: center center;
+    -moz-animation: zoom 20s;
+    -webkit-animation: zoom 20s;
+    -o-animation: zoom 20s;
+    animation: zoom 20s;
+}
+body.mobile-wide-screen #hero-main .hero-background-1 {
+    height: 100vw;
+    width: 100%;
+}
+#hero-main .hero-background-2 {
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    background: url(../../assets/img/main-hero-3.jpg) no-repeat;
+    background-size: cover;
+    background-position: center center;
+    -moz-animation: zoom 20s;
+    -webkit-animation: zoom 20s;
+    -o-animation: zoom 20s;
+    animation: zoom 20s;
+}
+body.mobile-wide-screen #hero-main .hero-background-2 {
+    height: 100vw;
+    width: 100%;
+}
+@keyframes zoom {
+    from {
+        transform: scale(1, 1);
+    }
+    to {
+        transform: scale(1.2, 1.2);
+    }
+}
+@-moz-keyframes zoom {
+    from {
+        transform: scale(1, 1);
+    }
+    to {
+        transform: scale(1.2, 1.2);
+    }
+}
+@-webkit-keyframes zoom {
+    from {
+        transform: scale(1, 1);
+    }
+    to {
+        transform: scale(1.2, 1.2);
+    }
+}
+#hero-main .carousel-item .background-filter-0 {
+    position: absolute;
+    background: #000000;
+    opacity: 0.5;
+    width: 100%;
+    height: 100vh;
+}
+body.mobile-wide-screen #hero-main .carousel-item .background-filter-0 {
+    position: absolute;
+    background: #000000;
+    opacity: 0.5;
+    width: 100%;
+    height: 100vw;
+}
+#hero-main .carousel-item .background-filter-0a {
+    position: absolute;
+    background: #00B2FF;
+    opacity: 0.1;
+    width: 100%;
+    height: 100vh;
+}
+body.mobile-wide-screen #hero-main .carousel-item .background-filter-0a {
+    position: absolute;
+    background: #00B2FF;
+    opacity: 0.1;
+    width: 100%;
+    height: 100vw;
+}
+#hero-main .carousel-item .background-filter-0b {
+    position: absolute;
+    background: #36177A;
+    opacity: 0.15;
+    width: 100%;
+    height: 100vh;
+}
+body.mobile-wide-screen #hero-main .carousel-item .background-filter-0b {
+    position: absolute;
+    background: #36177A;
+    opacity: 0.15;
+    width: 100%;
+    height: 100vw;
+}
+#hero-main .carousel-item .background-filter-1 {
+    position: absolute;
+    background: #0d0629;
+    opacity: 0.5;
+    width: 100%;
+    height: 100vh;
+}
+body.mobile-wide-screen #hero-main .carousel-item .background-filter-1 {
+    position: absolute;
+    background: #0d0629;
+    opacity: 0.5;
+    width: 100%;
+    height: 100vw;
+} 
+#hero-main .carousel-item .background-filter-2 {
+    position: absolute;
+    background: #0d0629;
+    opacity: 0.5;
+    width: 100%;
+    height: 100vh;
+}
+body.mobile-wide-screen #hero-main .carousel-item .background-filter-2 {
+    position: absolute;
+    background: #0d0629;
+    opacity: 0.5;
+    width: 100%;
+    height: 100vw;
+} 
+#hero-main .container {
+    position: relative;
+    padding-top: 23vh;
+    color: #ffffff;
+    text-align: center;
+}
+body.mobile-wide-screen #hero-main .container {
+    position: relative;
+    padding-top: 23vw;
+    color: #ffffff;
+    text-align: center;
+}
+
+/* Events */
+#events {
+    background-color: #03051a;
+    width: 100%;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+/* Gallery */
+#gallery {
+    background: #03051a;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.gallery-img {
+    width: 100%;
+    height: auto;
+    padding: 0.7rem 0rem;
+}
+.gallery-container {
+    position: relative;
+    z-index: 5;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+.gallery-img:hover {
+    transform: scale(1.1);
+    transition: all ease 500ms;
+}
+#gallery-page {
+    background: #03051a;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Music */
+#music {
+    position: relative;
+    background-color: #03051a;
+    background: url(../../assets/img/music-bg.jpg) no-repeat;
+    background-position: center !important;
+    background-size: cover !important;
+    width: 100%;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    
+}
+
+
+#welcome {
+    background: url('/assets/img/welcome-bg.png') no-repeat;
+}
+#contact {
+    background: url('/assets/img/contact-bg.jpg') no-repeat;
+}
+#hero-page {
+    background: url('/assets/img/hero-page-bg.png') no-repeat;
+}
+#contact {
+    background: url('/assets/img/contact-bg.jpg') no-repeat;
+}
