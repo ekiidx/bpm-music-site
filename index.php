@@ -29,16 +29,13 @@
 
             <div class="container reveal animate__animated animate__fadeIn">
                 <div class="hero-subtitle-container">
-                    <span class="hero-subtitle uppercase red center teko semi-bold block">Top Title</span>
                     <span class="hero-subtitle-1 uppercase blue center teko block">Bottom Title</span>
                 </div>
 
                 <div class="hero-title-container">
                     <span class="hero-title uppercase center teko block">Hero Title 1</span> 
-                    <span class="hero-title uppercase center teko block">Hero Title 2</span>
                 </div>
 
-                    <p class="work-sans">Hero excerpt.</p>
                     <a class="red-btn teko uppercase" href="https://www.facebook.com">Hear More</a>
                     <a class="blue-btn teko black uppercase" href="/contact.php">Contact Us</a>
             </div>
@@ -51,16 +48,12 @@
 
             <div class="container reveal animate__animated animate__fadeIn">
                 <div class="hero-subtitle-container">
-                <span class="hero-subtitle uppercase red center teko semi-bold block">Top Title</span>
                     <span class="hero-subtitle-1 uppercase blue center teko block">Bottom Title</span>
                 </div>
 
                 <div class="hero-title-container">
                     <span class="hero-title uppercase center teko block">Hero Title 1</span> 
-                    <span class="hero-title uppercase center teko block">Hero Title 2</span>
                 </div>
-
-                    <p class="work-sans">Hero excerpt.</p>
                     <a class="red-btn teko uppercase" href="https://www.facebook.com">Hear More</a>
                     <a class="blue-btn teko black uppercase" href="/contact.php">Contact Us</a>
             </div>
@@ -72,16 +65,12 @@
 
             <div class="container reveal animate__animated animate__fadeIn">
                 <div class="hero-subtitle-container">
-                    <span class="hero-subtitle uppercase red center teko semi-bold block">Top Title</span>
                     <span class="hero-subtitle-1 uppercase blue center teko block">Bottom Title</span>
                 </div>
 
                 <div class="hero-title-container">
                     <span class="hero-title uppercase center teko block">Hero Title 1</span> 
-                    <span class="hero-title uppercase center teko block">Hero Title 2</span>
                 </div>
-
-                    <p class="work-sans">Hero excerpt.</p>
                     <a class="red-btn teko uppercase" href="https://www.facebook.com">Hear More</a>
                     <a class="blue-btn teko black uppercase" href="/contact">Contact Us</a>
             </div>
@@ -115,38 +104,14 @@
                 <span class="subtitle red uppercase teko">Check Out</span>
                 <h1 class="title white uppercase teko">Our Next Event</h1>
             </div>
-        </div>
+        </div> <?php
 
-        <div style="border-bottom: 1px solid pink;" class="row">
-            <div class="col-4">
-                <div class="row">
-                    <div class="col-2">
-                        <span style="font-size: 4rem;">31</span>
-                    </div>
+        include 'event.php'; 
+        include 'event.php'; 
+        include 'event.php'; 
+        include 'event.php'; 
+        include 'event.php'; ?>
 
-                    <div class="col-10 d-flex justify-content-between">
-                        <div class="justify-content-start">    
-                            <div style="font-size: 1.7rem; text-transform: uppercase; line-height: 1.7rem; font-weight: 600;" class="text-start">
-                                <span style="display: block;">Janurary</span>
-                                <span style="display: block;">2023</span>
-                            </div>
-                        </div>
-
-                        <div class="justify-content-end">
-                            <div style="font-size: 1.7rem; text-transform: uppercase; line-height: 1.7rem; font-weight: 600;" class="text-end">
-                                <span style="display: block;">Cleveland</span>
-                                <span style="display: block;">Ohio</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-
-            <div class="col-6"><span style="font-size: 1.7rem; text-transform: uppercase;">Fall Daze 2023</span></div>
-            <div class="col-2">
-                <a href=""><div class="text-center" style="padding: 1rem 2rem; background-color: pink;">Buy Tickets</div></a>
-        </div>
     </div>        
 </section>
 
@@ -187,28 +152,28 @@
                 <img class="hr" src="/assets/img/wave.gif">
             </div>
             <div class="col-6 col-lg-3">
-                <a href="/assets/img/gallery-1.jpg"><img class="gallery-img" src="/assets/img/gallery-1.jpg"></a>
+                <a href="/assets/img/shirt-1.png"><img class="gallery-img" src="/assets/img/shirt-1.png"></a>
             </div>
             <div class="col-6 col-lg-3">
-                <a href="/assets/img/gallery-2.jpg"><img class="gallery-img" src="/assets/img/gallery-2.jpg"></a>
+                <a href="/assets/img/shirt-2.png"><img class="gallery-img" src="/assets/img/shirt-2.png"></a>
             </div>
             <div class="col-6 col-lg-3">
-                <a href="/assets/img/gallery-3.jpg"><img class="gallery-img" src="assets/img/gallery-3.jpg"></a>
+                <a href="/assets/img/shirt-1.png"><img class="gallery-img" src="/assets/img/shirt-1.png"></a>
             </div>
             <div class="col-6 col-lg-3">
-                <a href="/assets/img/gallery-4.jpg"><img class="gallery-img" src="/assets/img/gallery-4.jpg"></a>
+                <a href="/assets/img/shirt-2.png"><img class="gallery-img" src="/assets/img/shirt-2.png"></a>
             </div>
             <div class="col-6 col-lg-3">
-                <a href="/assets/img/gallery-5.jpg'; ?>"><img class="gallery-img" src="/assets/img/gallery-5.jpg"></a>
+                <a href="/assets/img/shirt-1.png"><img class="gallery-img" src="/assets/img/shirt-1.png"></a>
             </div>
             <div class="col-6 col-lg-3">
-                <a href="/assets/img/gallery-6.jpg"><img class="gallery-img" src="/assets/img/gallery-6.jpg"></a>
+                <a href="/assets/img/shirt-2.png"><img class="gallery-img" src="/assets/img/shirt-2.png"></a>
             </div>
             <div class="col-6 col-lg-3">
-                <a href="/assets/img/gallery-7.jpg"><img class="gallery-img" src="/assets/img/gallery-7.jpg"></a>
+                <a href="/assets/img/shirt-1.png"><img class="gallery-img" src="/assets/img/shirt-1.png"></a>
             </div>
             <div class="col-6 col-lg-3">
-                <a href="/assets/img/gallery-8.jpg"><img class="gallery-img" src="/assets/img/gallery-8.jpg"></a>
+                <a href="/assets/img/shirt-2.png"><img class="gallery-img" src="/assets/img/shirt-2.png"></a>
             </div>
         </div>
     </div>
