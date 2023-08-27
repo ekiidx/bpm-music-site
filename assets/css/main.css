@@ -1,6 +1,6 @@
 html, body {
     background-color: #03051a;
-    color: #ffffff;
+    color: #fad7fc;
     font-family: 'Work Sans', sans-serif;
     font-size: 16px;
 }
@@ -8,6 +8,14 @@ a {
     text-decoration: none;
 }
 
+.hr {
+    margin-bottom: 4rem;
+}
+
+.pink-btn {
+    background-color: pink;
+    background: pink;
+}
 
 /* Hero Main */
 #hero-main p {
@@ -217,7 +225,6 @@ body.mobile-wide-screen #hero-main .container {
 
 /* Events */
 #events {
-    background-color: #03051a;
     width: 100%;
     padding-top: 8rem;
     padding-bottom: 8rem;
@@ -225,7 +232,6 @@ body.mobile-wide-screen #hero-main .container {
 
 /* Gallery */
 #gallery {
-    background: #03051a;
     width: 100%;
     position: relative;
     overflow: hidden;
@@ -246,7 +252,6 @@ body.mobile-wide-screen #hero-main .container {
     transition: all ease 500ms;
 }
 #gallery-page {
-    background: #03051a;
     padding-top: 8rem;
     padding-bottom: 8rem;
     width: 100%;
@@ -257,7 +262,6 @@ body.mobile-wide-screen #hero-main .container {
 /* Music */
 #music {
     position: relative;
-    background-color: #03051a;
     background: url(../../assets/img/music-bg.jpg) no-repeat;
     background-position: center !important;
     background-size: cover !important;
@@ -267,8 +271,20 @@ body.mobile-wide-screen #hero-main .container {
     
 }
 
+/* Contact */
+#contact {
+    width: 100%;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+    
+}
+
 /* Footer */
-#footer {
+footer {
+    background-color: #000000;
+    background:  #000000;
+}
+.footer-container {
     width: 100%;
     padding-top: 8rem;
     padding-bottom: 8rem;
