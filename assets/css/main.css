@@ -219,8 +219,8 @@ body.mobile-wide-screen #hero-main .container {
 #events {
     background-color: #03051a;
     width: 100%;
-    padding-top: 4rem;
-    padding-bottom: 4rem;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
 }
 
 /* Gallery */
@@ -238,8 +238,8 @@ body.mobile-wide-screen #hero-main .container {
 .gallery-container {
     position: relative;
     z-index: 5;
-    padding-top: 4rem;
-    padding-bottom: 4rem;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
 }
 .gallery-img:hover {
     transform: scale(1.1);
@@ -247,8 +247,8 @@ body.mobile-wide-screen #hero-main .container {
 }
 #gallery-page {
     background: #03051a;
-    padding-top: 4rem;
-    padding-bottom: 4rem;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
     width: 100%;
     position: relative;
     overflow: hidden;
@@ -262,9 +262,16 @@ body.mobile-wide-screen #hero-main .container {
     background-position: center !important;
     background-size: cover !important;
     width: 100%;
-    padding-top: 4rem;
-    padding-bottom: 4rem;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
     
+}
+
+/* Footer */
+#footer {
+    width: 100%;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
 }
 
 

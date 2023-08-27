@@ -63,7 +63,7 @@
 
 	<header>
 		<nav class="navbar navbar-dark navbar-expand-lg" data-bs-theme="dark">
-			<div class="container-fluid">
+			<div class="container">
 
 				<a class="navbar-brand" href="/">BPM</a>
 
